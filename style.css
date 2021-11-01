@@ -1,0 +1,75 @@
+/* Navebar */
+
+.presentation {
+  color: white;
+  font-family: "Impact, 'Arial Narrow Bold', sans-serif";
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+/* Page a propos */
+
+.fondpropos {
+  background-color: #ea638c;
+  height: 570px;
+}
+
+.curiculum {
+  margin-bottom: 30px;
+}
+
+.resumer,
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "cursive";
+}
+
+/* Page compétences */
+
+.fondcompetences {
+  background-color: #89023e;
+  height: 100%;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+.couleur {
+  background-color: #1b2021;
+}
+
+/* Page contact */
+
+.fondcontact {
+  background-color: #ffd9da;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.margemessage,
+.margesujet,
+.margeemail,
+.margeprenom,
+.margenom {
+  margin-bottom: 20px;
+}
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+  font-family: "cursive" Impact, sans-serif;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+/* Pied de page */
+
+footer {
+  height: 150px;
+}
+
+.piedpage {
+  padding-top: 35px;
+}

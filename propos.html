@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio, developpeur web, utilisation des langages HTML5, CSS3, Bootstrap5, création de sites internet,application we b web mobile."
+      content="Portfolio, développeur web, utilisation des langages HTML5, CSS3, Bootstrap5, création de sites internet, application web web mobile."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,8 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class= "container-fluid">
           <a class="navbar-brand" href="#">
             <img src="images\Logo J.jpg" alt="logo" height="70" width="70">
           </a>
@@ -40,54 +40,36 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="index.html"
-                  >ACCUEIL</a>
+                <a class="nav-link"
+                  href="index.html">ACCUEIL</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="propos.html">A PROPOS</a>
+                <a class="nav-link active text-white" aria-current="page" href="propos.html">A PROPOS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="competences.html">COMPETENCES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-white"
-                  aria-current="page" href="contact.html">CONTACT</a>
+                <a class="nav-link" href="contact.html">CONTACT</a>
               </li>
             <ul>
         </div>
       </nav>
     </header>
-    <main class="fondcontact col-12 col-sm-12 col-md-12 col-xl-12"> 
-      <h3 class="formulaire">Vous pouvez me contacter via le formulaire</h3>
-      <form> 
-        <div class="input-group d-flex justify-content-center">
-          <div class="col-10 col-sm-10 col-md-8 col-xl-6">
-            <label for="name" class="from-label">Nom</label>
-            <input type="text" class="margenom form-control" id="nom">
-              <div>
-                <label for="prenom" class="from-label">Prénom</label>
-                <input type="text" class="margeprenom form-control form-control-md" id="prenom">
-              </div>
-              <div>
-                <label for="email" class="from-label">Email</label>
-                <input type="text" class=" margeemail form-control form-control-md" id="email">
-              </div>
-              <div>
-                <label for="sujet" class="from-label">Sujet</label>
-                <input type="text" class="margesujet form-control form-control-md" id="sujet">
-              </div>
-              <div>
-                <label for="message" class="from-label">Message</label>
-                <textarea class="margemessage form-control" rows="4"></textarea>
-              </div>
-              <div>
-                <button type="button" class="btn btn-dark">ENVOYER</button>
-              </div>
-          </div>
-        </div>
-      </form>
+    <main class="fondpropos col-12 col-sm-12 col-md-12 col-xl-12">
+      <section class="col-12 d-flex justify-content-center">
+        <img src="images\profile.jpg" class="rounded-circle my-3" height="30%" width="30%">
+      <aside class="col-6 d-flex justify-content-center align-self-center ms-4">
+          <p class="resumer">Bonjour, je m'appelle Jessica, j'ai 35 ans et actuellement je suis en reconversion professionnelle dans le développement web avec l'école de formation <a href="https://www.studi.com/fr">Studi</a>. Je fais ce projet dans le but de mettre en pratique mes compétences acquises. </p>
+      </aside>
+      </section>
+      <article class="d-flex justify-content-center">
+        <button type="button" class="btn btn-dark">
+          <a href="https://www.canva.com/design/DAEqEOid-x8/4ikv_WPdxQeJEaripbzQtg/view?utm_content=DAEqEOid-x8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" title="CV">
+            <img src="images\studentmeets_4873 (1).png">
+          </a>
+        </button>
+      </article>
     </main>
         <footer class="col-12 col-sm-12 col-md-12 col-xl-12 bg-dark ">
       <div class="piedpage d-flex justify-content-center">

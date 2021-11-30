@@ -1,4 +1,4 @@
 Users-agent : *
 Allow : /
 
-Sitemap : http : //www.bordat.jessica.com/sitemap.xml
+Sitemap : https://bordat-jessica.herokuapp.com/sitemap.xml
